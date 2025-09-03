@@ -1,9 +1,9 @@
 DEBUG_MODE = False
 
-LR_ABLATION_MODE = True
+LR_ABLATION_MODE = False
 
 # --- Training ---
-LR = 1e-3 #Learning Rate
+LR = 1e-1 #Learning Rate
 MAX_EPOCHS = 1000 #Upper bound on epochs, early stopping implemented!
 BATCH_SIZE = 128
 METRIC = "val_loss" #"val_loss" or "val_acc"
